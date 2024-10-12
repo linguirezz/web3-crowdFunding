@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ nav{
+  @apply  w-full h-20 border border-primary py-3 px-5 flex justify-between items-center  
+}
+.nav-btn{
+  @apply rounded-md w-fit h-full mx-3 text-sm capitalize border p-3
+}
+ footer{
+  @apply flex  justify-center w-full h-28 p-3 border text-[#FAF7F0] capitalize
+ }
