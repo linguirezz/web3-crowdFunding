@@ -3,7 +3,7 @@
 @tailwind utilities;
 
  nav{
-  @apply  w-full overflow-hidden h-20 border border-primary py-3 px-5 flex justify-between items-center  
+  @apply  w-full overflow-hidden h-20 border-y border-primary py-3 px-5 flex justify-between items-center  
 }
 .nav-btn{
   @apply rounded-md w-fit h-full mx-3 text-sm capitalize border p-3
