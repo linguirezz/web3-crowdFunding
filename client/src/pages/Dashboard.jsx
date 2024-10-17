@@ -1,16 +1,15 @@
-import Nav from "./components/Nav"
-import Footer from "./components/Footer"
-import KickStarter from "./components/KickStarter"
-import Comment from "./components/Comment"
-import SmallIcon from "./components/SmallIcon"
-import TimeProgress from "./components/TimeProgress"
-import Section from "./components/elements/Section"
-import GreenLineTextWithPhoto from "./components/elements/GreenLineTextWithPhoto"
-import GridContainer from "./components/elements/GridContainer"
-import CreatorCorners from "./components/elements/CreatorCorners"
-function app(){
-  return(
-    <>
+import React from 'react'
+import Nav from '../components/Nav'
+import KickStarter from "../components/KickStarter"
+import Comment from "../components/Comment"
+import Section from "../components/elements/Section"
+import GreenLineTextWithPhoto from "../components/elements/GreenLineTextWithPhoto"
+import GridContainer from "../components/elements/GridContainer"
+import CreatorCorners from '../components/elements/creatorCorners'
+import Footer from "../components/Footer"
+function dashboard() {
+  return (
+    <div>
     {/* nav */}
     <Nav/>
     {/* content */}
@@ -48,8 +47,9 @@ function app(){
         {/* footer */}
     <CreatorCorners/>
     <Footer/>
-    </>
+    </div>
 
   )
 }
-export default app
+
+export default dashboard
